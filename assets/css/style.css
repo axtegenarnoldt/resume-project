@@ -17,6 +17,18 @@
     background-color: #9b59b5;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -33,6 +45,13 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
 /*-------------------------------------Secial paddings/margins/text */
 
 h1,
@@ -112,7 +131,6 @@ header {
     color: #ffffff;
 
 }
-
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -126,30 +144,30 @@ header {
 }
 
 #nav li {
-    font-size: 14px;
+    padding: 0;
 }
 
-.menu-item {
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-.menu-item a {
+.menuitem a {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
     height: 120px;
 }
 
-.menu-item a i {
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menu-item span {
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -282,7 +300,7 @@ footer {
 }
 
 .progress-section {
-    margin: 20px 20px;
+    margin: 40px 20px;
 }
 
 /*-------------------------------------Work History */
@@ -290,6 +308,10 @@ footer {
 .history-heading {
     color: #fafafa;
     margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 .timeline-item {
@@ -332,3 +354,7 @@ footer {
 .history-item {
     margin-bottom: 30px;
 }
+
+/*-------------------------------------Map */
+
+div#map {min-height: 360px;}
